@@ -1,0 +1,29 @@
+name: InteractiveDecisionTrees
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel=5.1.1
+  - ipython=7.8.0
+  - ipython_genutils=0.2.0
+  - json5=0.8.5
+  - jsonschema=3.0.1
+  - jupyter_client=5.3.3
+  - jupyter_core=4.5.0
+  - jupyterlab=1.1.4
+  - jupyterlab_server=1.0.6
+  - matplotlib=3.1.1
+  - matplotlib-base=3.1.1
+  - nbconvert=5.5.0
+  - nbformat=4.4.0
+  - notebook=6.0.1
+  - numpy=1.17.0
+  - pandas=0.25.1
+  - pip=19.2.1
+  - python=3.7.3
+  - python-dateutil=2.8.0
+  - scikit-learn=0.21.2
+  - wheel=0.33.4
+  - pip:
+    - altair==4.0.1 
+prefix: //anaconda3/envs/InteractiveDecisionTrees
